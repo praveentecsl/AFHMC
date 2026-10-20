@@ -60,4 +60,11 @@ CREATE TABLE IF NOT EXISTS `afhmc_applications` (
     `health_signature` VARCHAR(100) DEFAULT NULL,
     `health_date` VARCHAR(30) DEFAULT NULL,
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+    -- 2. Admin Users Table for Secure Authentication
+CREATE TABLE IF NOT EXISTS `afhmc_admins` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `username` VARCHAR(100) UNIQUE NOT NULL,
+    `password_hash` VARCHAR(255) NOT NULL,
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

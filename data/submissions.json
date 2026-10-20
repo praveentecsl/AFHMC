@@ -150,5 +150,65 @@
             "health_signature": "uuuu",
             "health_date": "iiiii"
         }
+    },
+    {
+        "submitted_at": "2026-10-20 11:58:08",
+        "form_type": "afhmc_full_application",
+        "data": {
+            "form_type": "afhmc_full",
+            "membership_type": "FULL",
+            "title": "MR",
+            "rank": "base cmndr",
+            "first_name": "kumara",
+            "last_name": "push",
+            "address": "rathmalane",
+            "occupation": "",
+            "nationality": "",
+            "official_address": "",
+            "passport_nic": "",
+            "dob_d": "8",
+            "dob_m": "2",
+            "dob_y": "2011",
+            "telephone": "7777777",
+            "mobile": "99999999",
+            "email": "asdfsdf@g.com",
+            "signature": "qqqqqqqqq",
+            "recommendation": "wwwwwwwwwwwwww",
+            "category": "qqqqqqqqqq",
+            "date_issue": "qqqqqqqqq",
+            "date_expiry": "qqqqqqqqqqq",
+            "date_received": "rrrrrrrrr",
+            "receipt_no": "rrrrrrrrrrrr",
+            "amount_paid": "",
+            "card_number": "",
+            "commander": "",
+            "approval_date": "fffffff",
+            "gender": "",
+            "age": "",
+            "dob": "8/2/2011",
+            "cardio_1": "YES",
+            "cardio_2": "NO",
+            "cardio_3": "YES",
+            "cardio_4": "NO",
+            "cardio_5": "YES",
+            "cardio_6": "NO",
+            "cardio_7": "YES",
+            "cardio_8": "NO",
+            "cardio_9": "YES",
+            "cardio_10": "NO",
+            "medications": "hhhhhhhhhhhhhhhhh",
+            "back_problem": [
+                "Neck"
+            ],
+            "orthopedic": [
+                "Hand"
+            ],
+            "hernia": "No",
+            "surgery_details": "",
+            "activity": "Never Exercise",
+            "last_exam": "",
+            "health_signature": "",
+            "health_date": "ppppppppppppp"
+        }
     }
 ]
