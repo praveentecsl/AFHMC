@@ -102,7 +102,17 @@ function createTables($pdo, $driver = 'mysql') {
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )";
 
+    // Admins table for secure database-backed login
+    $sqlAdmin = "CREATE TABLE IF NOT EXISTS afhmc_admins (
+        id $autoInc,
+        username VARCHAR(100) UNIQUE NOT NULL,
+        password_hash VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )";
+    $pdo->exec($sqlAdmin);
+
     $pdo->exec($sqlUnified);
+
 }
 
 function saveFullApplication($data) {
